@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42602" started-at="2021-03-06T07:39:48Z" finished-at="2021-03-06T07:40:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42602" started-at="2021-03-06T07:39:48Z" finished-at="2021-03-06T07:40:31Z">
+      <class name="com.retail.WalmartAutomation.LoginWithValidDataTest">
+        <test-method status="PASS" signature="loginValidData()[pri:0, instance:com.retail.WalmartAutomation.LoginWithValidDataTest@19bb089b]" name="loginValidData" duration-ms="42585" started-at="2021-03-06T13:09:48Z" finished-at="2021-03-06T13:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidData -->
+      </class> <!-- com.retail.WalmartAutomation.LoginWithValidDataTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

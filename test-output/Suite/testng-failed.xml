@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.retail.WalmartAutomation.SignOutTest"/>
+      <class name="com.retail.WalmartAutomation.LoginWithValidDataTest"/>
+      <class name="com.retail.WalmartAutomation.LoginWithInvalidDataTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.retail.WalmartAutomation.LoginWithInvalidDataTest">
+        <methods>
+          <include name="invalidDataLogin"/>
+        </methods>
+      </class> <!-- com.retail.WalmartAutomation.LoginWithInvalidDataTest -->
+      <class name="com.retail.WalmartAutomation.LoginWithValidDataTest">
+        <methods>
+          <include name="loginValidData"/>
+        </methods>
+      </class> <!-- com.retail.WalmartAutomation.LoginWithValidDataTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
